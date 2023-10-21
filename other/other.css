@@ -1,0 +1,88 @@
+/* Barra Navegación */
+nav {
+    /* Color Fondo */
+    background-color: #343434;
+    /* Relleno Interior */
+    padding: 8px;
+    /* Modelo Flexbox */
+    display: flex;
+    /* Alinear Elementos Verticalmente Centro */
+    align-items: center;
+    /* Espacio Entre los elementos */
+    justify-content: space-between;
+}
+
+
+/* Estilos Secciones General */
+section {
+    /* Relleno Interior */
+    padding: 20px;
+    /* Espacio Restante en el contenedor */
+    flex: 1;
+    /* Alinear Texto Centrado */
+    text-align: center;
+}
+
+/* Selector Clase Fondo h2 index.html */
+.fondo {
+    /* Color Fondo */
+    background-color: #2b027e;
+    /* Color Tipografía - Letra */
+    color: #ffffff;
+}
+
+.tamaño {
+    font-size: 8px;
+    text-align: center;
+}
+
+/* Estilos para párrafos */
+p {
+    /* Fuente en negrita */
+    font-weight: bold;
+    /* Color de texto */
+    color: #464646;
+    /* Tamaño de fuente */
+    font-size: 18px;
+    text-align: justify;
+}
+
+
+/* Selector descendiente- Tamaño Imagenes Estilos Secundarios quienesSomos.html */
+aside img {
+    /* Ancho de la imagen */
+    width: 300px;
+    /* Altura de la imagen */
+    height: 350px;
+}
+
+/* Selector atributo - Estilos para el botón de envío en formularios */
+input[type=submit] {
+    /* Color de fondo del botón de envío */
+    background-color: #2b027e;
+    /* Color de texto del botón de envío */
+    color: white;
+    /* Relleno interior */
+    padding: 12px 20px;
+    /* Sin borde */
+    border: none;
+    /* Borde redondeado */
+    border-radius: 12px;
+    /* Cambia el cursor a una mano cuando se pasa sobre el botón */
+    cursor: pointer;
+}
+
+/* Estilos al pasar el mouse sobre el botón de envío */
+input[type=submit]:hover {
+    /* Cambio de color de fondo al pasar el mouse */
+    background-color: #45a049;
+}
+
+/* Selector Clase .apps de imágenes en enlaces de listas y elementos de lista */
+.apps {
+    /* Ancho de la imagen */
+    width: 90px;
+    /* Altura de la imagen */
+    height: 70px;
+}
+
